@@ -1,0 +1,111 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Grouping Tags</title>
+    <style>
+        body {
+            background-color: dimgrey;
+            font-family: Arial, Helvetica, sans-serif;
+            margin: 0px;
+        }
+        header {
+            margin: -10px auto auto auto;
+            background-color: lightgrey;
+            padding: 10px;
+            text-align: center;
+            border-radius: 8px;
+        }
+        nav {
+            background-color: grey;
+            color: white;
+            height: 22px;
+            text-align: center;
+            padding: 1px;
+            padding-top: 2px;
+            box-shadow: 2px 3px 6px rgba(0, 0, 0, 0.568);
+            border-radius: 100px;
+        }
+        nav > a {
+            color: white;
+            text-decoration: none;
+            font-weight: bold;
+            padding: 2px;
+            margin-right: 20px;
+        }
+
+        nav > a:hover {
+            color: aqua;
+            border: 1px dashed aqua;
+        }
+        article {
+            background-color: rgb(255, 255, 255);
+            padding: 5px;
+            border-radius: 10px;
+        }
+        article > div {
+            background-color: rgb(155, 155, 155);
+            margin: 5px;
+            padding: 4px 4px;
+            text-align: justify;
+            border-radius: 10px;
+            box-shadow: 3px 4px 5px rgba(0, 0, 0, 0.486);
+        
+        }
+        article > div > aside {
+            background-color: white;
+            padding: 1px;
+            width: 225px;
+            margin: auto;
+            text-align: center;
+            border-radius: 50px;
+        }
+
+        main {
+            background-color: lightgray;
+            margin: 10px;
+            padding: 10px;
+            border-radius: 10px;
+        }
+
+        footer {
+            background-color: black;
+            color: white;
+            text-align: center;
+        }
+    </style>
+</head>
+<body>
+    <header>
+        <h1>Meu Site</h1>
+        <nav>
+            <a href="#">Link</a>
+            <a href="#">Link</a>
+            <a href="#">Link</a>
+            <a href="#">Link</a>
+            <a href="#">Link</a>
+        </nav>
+    </header>
+    <main>
+        <section id="assuntos">
+
+        </section>
+        <section id="noticias">
+            <article>
+                <p>Lorenzo Balico</p>
+                <div>
+                    <h2>Noticias sobre o Brasil</h2>
+                    <p>Lorem ipsum, dolor sit amet consectetur adipisicing elit. Ratione, neque accusamus nostrum consequuntur animi error minus similique omnis itaque amet autem numquam iusto voluptatibus inventore veniam doloremque alias impedit esse?</p>
+                    <aside>Artigo escrito por Kiko Zinho</aside>
+                </div>
+            </article>
+        </section>
+    </main>
+    <footer>
+        <sub>
+            <p>desenvolvido pelo Gabriel Scariot</p>
+        </sub>
+    </footer>
+</body>
+</html>

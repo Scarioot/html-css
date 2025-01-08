@@ -1,0 +1,95 @@
+@charset "utf-8";
+@font-face {
+    font-family: 'idr';
+    src: url('http://localhost/projeto/fontes/idroid.otf') format('opentype');
+}
+@import url('https://fonts.googleapis.com/css2?family=Bebas+Neue&display=swap');
+.bebas-neue-regular {
+font-family: "Bebas Neue", serif;
+font-weight: 400;
+font-style: normal;
+}
+body {
+    font-family: Arial, Helvetica, sans-serif;
+    background-color: #84E1AD;
+}
+h1 {
+    font-family: "Bebas Neue", Arial, Helvetica, sans-serif;
+    text-align: center;
+}
+header {
+    background-image: linear-gradient(#3CD983, #174F31);
+    color: white;
+    text-align: center;
+    margin: -10px;
+    margin-top: -20px;
+    padding-bottom: 1px;
+    box-shadow: 3px 4px 6px 1px rgba(0, 0, 0, 0.5);
+}
+div.img {
+    background-color: transparent;
+    text-align: center;
+}
+header > h1 {
+    padding-top: 30px;
+}
+header > p {
+    padding-bottom: 30px;
+}
+header > nav {
+    font-family: Arial, Helvetica, sans-serif;
+    font-weight: bold;
+    text-align: initial;
+}
+header > nav > ul > a{
+    color: white ;
+    text-decoration: none;
+    font-weight: bold;
+    margin-right: 20px;
+    margin-bottom: 10px;
+}
+main {
+    margin: 20px auto;
+    background-color: white;
+    padding: 5px 10px;
+    width: 1000px;
+    margin-top: 10px; 
+    box-shadow: 3px 4px 10px 5px rgba(0, 0, 0, 0.39);
+}
+.idroid {
+    font-family: "Audiowide", Arial, Helvetica, sans-serif;
+    color: #2d694a;
+}
+article.vd {
+    background-color: #1A5C38;
+    text-align: center;
+    padding: 10px;
+    padding-top: 20px;
+    margin: -10px;
+}
+footer {
+    background-color: black;
+    color: white;
+    text-align: center;
+    margin: -20px;
+    padding-top: -1px;
+    margin-top: 10px;
+}
+div {
+    background-color: #C5EBD6;
+    padding: 10px;
+    margin: 20px;
+    border-radius: 10px;
+}
+div > article {
+    color: white;
+    background-color: #2FA866;
+    margin: -10px;
+    margin-top: -30px;
+    border-radius: 10px;
+    padding: 1px;
+ }
+ p.obs {
+    color: white;
+    padding: 2px;
+ }

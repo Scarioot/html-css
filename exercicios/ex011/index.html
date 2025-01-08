@@ -1,0 +1,30 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Midias em HTML5</title>
+</head>
+<body>
+    <h1>Imagem Dinamica</h1>
+    <p>Tenet abrir esse site em varios dispositivios diferentes ou simplesmente aumente e diminua o tamanho do seu navegador.</p>
+
+    <picture>
+        <source media="(max-width: 750px)" srcset="imagems/imgp.png" type="image/png">
+        <source media="(max-width: 1050px)" srcset="imagens/imagemmedia.png" type="image/png">
+        <img src="imagens/imagemgrande.png" alt="Imagem flexivel">
+    </picture>
+
+    <h1>Reprodduzindo Audio</h1>
+    <p>Vamos aprender a reproduzir audios em HTML5</p>
+    <audio preload="metadata" autoplay controls loop>
+        <source src="midia/som_de_queima_de_fogos_mp3_www.toquesengracadosmp3.com.mp3" type="audio/mpeg">
+        <source src="midia/som_de_queima_de_fogos_mp3_www.toquesengracadosmp3.com.ogg" type="audio/ogg">
+        <source src="midia/som_de_queima_de_fogos_mp3_www.toquesengracadosmp3.com.wav" type="audio/wav">
+        <p>Infelizmente seu navegador não consegue reporduzir audio. <a href="midia/som_de_queima_de_fogos_mp3_www.toquesengracadosmp3.com.mp3">Clique aqui para baixar o arquivo mp3</a></p>
+    </audio>
+    
+    
+    
+</body>
+</html>
