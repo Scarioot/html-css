@@ -3,4 +3,4 @@
 
  Meu repositorio
 
- <a href="desafios/desafio010comguanabara/android.html">Executar site Android</a>
+ <a href="desafios/desafio010comguanabara/android.html" target="_blank" rel="external">Executar site Android</a>
