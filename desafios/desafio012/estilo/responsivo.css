@@ -1,0 +1,25 @@
+@media (max-width:1200px){
+    section {
+        font-size: 6vh;
+    }
+
+    section.img p {
+        display: inline-block;
+        width: 400px;
+    }
+
+}
+
+@media (max-width:760px){
+    section {
+        font-size: 5vh;
+        
+    }
+
+    section.img p {
+        display: inline-block;
+        width: 300px;
+    }
+
+}
+
